@@ -288,9 +288,6 @@ html {
 }
 
 .text-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 20vh;
   text-align: center;
   padding: 25px 30px;
