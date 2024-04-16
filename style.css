@@ -4,9 +4,11 @@
   margin: 0;
   padding: 0;
 }
-
-html{
-    scroll-behavior: smooth;
+body {
+  font-family: Roboto;
+}
+html {
+  scroll-behavior: smooth;
 }
 .logo {
   margin: 10px 50px;
@@ -17,14 +19,14 @@ html{
   align-items: center;
 }
 .logo img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   object-position: center;
 }
 .hero {
-  background: rgba(0, 0, 0, 0.3) url(Photos/pexels-liger-pham-1108701.jpg) no-repeat
-    top;
+  background: rgba(0, 0, 0, 0.3) url(Photos/pexels-liger-pham-1108701.jpg)
+    no-repeat top;
   background-blend-mode: darken;
   background-size: cover;
 }
@@ -76,14 +78,15 @@ html{
   height: 100vh;
 }
 
-.firstSection p, .buttons {
+.firstSection p,
+.buttons {
   padding: 15px 0;
   text-align: left;
 }
-.firstSection .buttons{
+.firstSection .buttons {
   text-align: center;
 }
-.firstSection button:hover{
+.firstSection button:hover {
   background-color: rgba(255, 255, 255, 0.204);
 }
 
@@ -170,69 +173,77 @@ html{
 .thumbnail img {
   height: 250px;
   width: 250px;
-  object-fit:cover ;
+  object-fit: cover;
   border: 2px solid black;
   border-radius: 26px;
   margin-top: 15px;
 }
 
-#japan-work{
-  background: url(Photos/Japan-Folder/technology.jpg) center no-repeat scroll rgba(0, 0, 0, 0.3);
-  background-size: cover;background-blend-mode: darken;
+#japan-work {
+  background: url(Photos/Japan-Folder/technology.jpg) center no-repeat scroll
+    rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-blend-mode: darken;
   color: white;
   max-width: 100%;
   margin: 20px 0;
 }
-#japan-work .text-big{
+#japan-work .text-big {
   text-decoration: underline;
 }
 
-#japan-cuisine{
-  background: url(Photos/Japan-Folder/cuisine.jpg) center no-repeat scroll rgba(0, 0, 0, 0.3);
-  background-size: cover;background-blend-mode: darken;
+#japan-cuisine {
+  background: url(Photos/Japan-Folder/cuisine.jpg) center no-repeat scroll
+    rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-blend-mode: darken;
   color: white;
   max-width: 100%;
   margin: 20px 0;
 }
-#japan-cuisine .text-big{
+#japan-cuisine .text-big {
   text-decoration: underline;
 }
 
-#japan-culture{
-  background: url(Photos/Japan-Folder/japanese\ culture.jpg) center no-repeat scroll rgba(0, 0, 0, 0.3);
-  background-size: cover;background-blend-mode: darken;
+#japan-culture {
+  background: url(Photos/Japan-Folder/japanese\ culture.jpg) center no-repeat
+    scroll rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-blend-mode: darken;
   color: white;
   max-width: 100%;
   margin: 20px 0;
 }
-#japan-culture .text-big{
+#japan-culture .text-big {
   text-decoration: underline;
 }
 
-#japan-travel{
-  background: url(Photos/Japan-Folder/mount\ fuji.jpg) center no-repeat scroll rgba(0, 0, 0, 0.3);
-  background-size: cover;background-blend-mode: darken;
+#japan-travel {
+  background: url(Photos/Japan-Folder/mount\ fuji.jpg) center no-repeat scroll
+    rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-blend-mode: darken;
   color: white;
   max-width: 100%;
   margin: 20px 0;
 }
-#japan-travel .text-big{
+#japan-travel .text-big {
   text-decoration: underline;
 }
-#why-japan{
+#why-japan {
   min-height: 500px;
 }
-#why-japan p{
+#why-japan p {
   color: black;
   text-align: center;
 }
-#why-japan ol li{
-color: black;
-text-align: left;
-padding: 7px;
+#why-japan ol li {
+  color: black;
+  text-align: left;
+  padding: 7px;
 }
-#why-japan .text-big:hover{
-cursor: pointer;
+#why-japan .text-big:hover {
+  cursor: pointer;
 }
 .contact {
   text-align: center;
@@ -249,7 +260,7 @@ cursor: pointer;
 .form {
   max-width: 500px;
   margin: auto;
-  padding:0 20px;
+  padding: 0 20px;
 }
 
 .form textarea {
@@ -277,10 +288,10 @@ cursor: pointer;
 }
 
 .text-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
   text-align: center;
   padding: 25px 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -289,68 +300,76 @@ cursor: pointer;
   background: url(Photos/pexels-liger-pham-1108701.jpg) no-repeat fixed center;
   background-size: cover;
 }
-.text-footer span{
-    color: rgba(127, 255, 212, 0.9);
-    margin: 0 10px;
+.text-footer span {
+  color: rgba(127, 255, 212, 0.9);
+  margin: 0 10px;
 }
 
-.burger{
-position: absolute;
-cursor: pointer;
-right: 5%;
-top: 15%;
-display: none;
+.burger {
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15%;
+  display: none;
 }
 
-.line{
-    width: 30px;
-    background-color: white;
-    height: 4px;
-    margin: 5px 3px;
+.line {
+  width: 30px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 3px;
 }
-@media only screen and (max-width: 1140px){
-    .nav-list{
-        flex-direction: column;
-    }
-    .navbar{
-        flex-direction: column;
-        transition: all 0.7s ease-out;
-        height: 450px;
-    }
-    .rightNav{
-        text-align: center;
-    }
-    #search{
-        width: 100%;
-    }
-    .burger{
-        display: block;
-    }
-    .h-nav{
-        height: 72px;
-    }
-    .v-class{
-        opacity: 0;
-    }
-    .box-main{
-        flex-direction: column-reverse;
-        max-width: 100%;
-    }
-    .section{
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-    .paras{
-        text-align: center;
-        padding:0 20px;
-        font-size: 14px;
-    }
+@media only screen and (max-width: 1140px) {
+  .logo{
+    margin-top: 10px;
+  }
+  .nav-list {
+    flex-direction: column;
+  }
+  .navbar {
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+    height: 450px;
+  }
+  .rightNav {
+    text-align: center;
+  }
+  #search {
+    width: 100%;
+    text-align: center;
+    margin: -20px;
+    margin-block: 10px;
+  }
+  .burger {
+    display: block;
+  }
+  .h-nav {
+    height: 72px;
+  }
+  .v-class {
+    opacity: 0;
+  }
+  .box-main {
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+  .section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .paras {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 14px;
+  }
 
-    .text-big, .text-small, .buttons{
-        text-align: center;
-    }
-    .text-footer{
-      max-width: 80%;
-      font-size: 12px;
-    }
+  .text-big,
+  .text-small,
+  .buttons {
+    text-align: center;
+  }
+  .text-footer {
+    max-width: 80%;
+    font-size: 12px;
+  }
 }
