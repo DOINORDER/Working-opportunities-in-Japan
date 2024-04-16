@@ -23,7 +23,7 @@ html{
   object-position: center;
 }
 .hero {
-  background: rgba(0, 0, 0, 0.3) url(pexels-liger-pham-1108701.jpg) no-repeat
+  background: rgba(0, 0, 0, 0.3) url(Photos/pexels-liger-pham-1108701.jpg) no-repeat
     top;
   background-blend-mode: darken;
   background-size: cover;
@@ -41,12 +41,11 @@ html{
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: antiquewhite;     */
 }
 .nav-list li {
   list-style: none;
   padding: 30px 30px;
-  font-size: 20px;
+  font-size: 22px;
 }
 .nav-list li a {
   color: white;
@@ -77,11 +76,22 @@ html{
   height: 100vh;
 }
 
+.firstSection p, .buttons {
+  padding: 15px 0;
+  text-align: left;
+}
+.firstSection .buttons{
+  text-align: center;
+}
+.firstSection button:hover{
+  background-color: rgba(255, 255, 255, 0.204);
+}
+
 .box-main {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: antiquewhite;
+  color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   max-width: 80%;
   margin: auto;
@@ -96,7 +106,8 @@ html{
 }
 
 .secondHalf {
-  width: 30%;
+  width: 250px;
+  height: 300px;
 }
 
 .secondHalf img {
@@ -135,11 +146,11 @@ html{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
   text-align: left;
   font-family: Roboto;
-  padding: 10px;
+  padding: 30px;
 }
 
 .section-left {
@@ -157,25 +168,79 @@ html{
   padding: 0px 65px;
 }
 .thumbnail img {
+  height: 250px;
   width: 250px;
+  object-fit:cover ;
   border: 2px solid black;
   border-radius: 26px;
-  margin-top: 19px;
+  margin-top: 15px;
 }
 
-.japan{
-    display: flex;
-    justify-items: center;
-    text-align: center;
+#japan-work{
+  background: url(Photos/Japan-Folder/technology.jpg) center no-repeat scroll rgba(0, 0, 0, 0.3);
+  background-size: cover;background-blend-mode: darken;
+  color: white;
+  max-width: 100%;
+  margin: 20px 0;
+}
+#japan-work .text-big{
+  text-decoration: underline;
 }
 
-.contact {
-  background-color: red;
+#japan-cuisine{
+  background: url(Photos/Japan-Folder/cuisine.jpg) center no-repeat scroll rgba(0, 0, 0, 0.3);
+  background-size: cover;background-blend-mode: darken;
+  color: white;
+  max-width: 100%;
+  margin: 20px 0;
+}
+#japan-cuisine .text-big{
+  text-decoration: underline;
+}
+
+#japan-culture{
+  background: url(Photos/Japan-Folder/japanese\ culture.jpg) center no-repeat scroll rgba(0, 0, 0, 0.3);
+  background-size: cover;background-blend-mode: darken;
+  color: white;
+  max-width: 100%;
+  margin: 20px 0;
+}
+#japan-culture .text-big{
+  text-decoration: underline;
+}
+
+#japan-travel{
+  background: url(Photos/Japan-Folder/mount\ fuji.jpg) center no-repeat scroll rgba(0, 0, 0, 0.3);
+  background-size: cover;background-blend-mode: darken;
+  color: white;
+  max-width: 100%;
+  margin: 20px 0;
+}
+#japan-travel .text-big{
+  text-decoration: underline;
+}
+#why-japan{
+  min-height: 500px;
+}
+#why-japan p{
+  color: black;
   text-align: center;
+}
+#why-japan ol li{
+color: black;
+text-align: left;
+padding: 7px;
+}
+#why-japan .text-big:hover{
+cursor: pointer;
+}
+.contact {
+  text-align: center;
+  background: rgba(238, 232, 170, 0.541);
 }
 .contact h2 {
   padding: 35px 0;
-  color: whitesmoke;
+  color: gray;
 }
 .text-center {
   text-align: center;
@@ -184,6 +249,7 @@ html{
 .form {
   max-width: 500px;
   margin: auto;
+  padding:0 20px;
 }
 
 .form textarea {
@@ -195,6 +261,8 @@ html{
 
 .form button {
   margin: 20px;
+  color: grey;
+  border-color: gray;
 }
 .form input {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -217,8 +285,8 @@ html{
   padding: 25px 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
-  color: whitesmoke;
-  background: url(pexels-liger-pham-1108701.jpg) no-repeat fixed center;
+  color: black;
+  background: url(Photos/pexels-liger-pham-1108701.jpg) no-repeat fixed center;
   background-size: cover;
 }
 .text-footer span{
@@ -271,16 +339,18 @@ display: none;
     .section{
         flex-direction: column-reverse;
         text-align: center;
-        /* height: 100%; */
-        /* max-height: 60%; */
     }
     .paras{
         text-align: center;
-        padding: 20px;
+        padding:0 20px;
+        font-size: 14px;
     }
 
     .text-big, .text-small, .buttons{
         text-align: center;
     }
-
+    .text-footer{
+      max-width: 80%;
+      font-size: 12px;
+    }
 }
