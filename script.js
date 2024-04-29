@@ -30,37 +30,4 @@ const japanWork = about.querySelector("japanW-work");
 //   japanWork.setAttribute("class", "ri-menu-line");
 // });
 
-const scrollRevealOption = {
-  distance: "50px",
-  origin: "bottom",
-  duration: 1000,
-};
 
-ScrollReveal().reveal(".section", {
-...scrollRevealOption,
-});
-ScrollReveal().reveal(".section p", {
-...scrollRevealOption,
-delay: 500,
-});
-ScrollReveal().reveal(".section .text-small", {
-...scrollRevealOption,
-delay: 1000,
-});
-ScrollReveal().reveal(".thumbnail img", {
-...scrollRevealOption,
-delay: 1500,
-});
-
-
-ScrollReveal().reveal(".download__container .section__header", {
-  ...scrollRevealOption,
-});
-ScrollReveal().reveal(".download__container p", {
-  ...scrollRevealOption,
-  delay: 500,
-});
-ScrollReveal().reveal(".download__container .download__btns", {
-  ...scrollRevealOption,
-  delay: 1000,
-});
